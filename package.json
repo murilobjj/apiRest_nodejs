@@ -1,0 +1,19 @@
+{
+  "name": "apiRest_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/murilobjj/apiRest_nodejs.git",
+  "author": "Murilo Gouvea <murilo@predict.info>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
